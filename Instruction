@@ -30,3 +30,4 @@ wsl --install
 4.docker run -it corrmak/zadachan4:dev
 
 5.docker run -p "8080:8080" corrmak/matveyweb:latest
+И зайти в браузер и в поисковую строку ввести localhost:8080
