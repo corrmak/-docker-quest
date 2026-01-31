@@ -1,0 +1,32 @@
+# Инструкция по запуску проекта
+
+## Предварительные требования
+
+### 1. Установка Docker Desktop
+Перед началом работы необходимо установить Docker на ваш компьютер:
+
+**Для Windows:**
+1. Перейдите на официальный сайт Docker:  
+   [https://docs.docker.com/desktop/setup/install/windows-install/](https://docs.docker.com/desktop/setup/install/windows-install/)
+2. Скачайте установочный файл `Docker Desktop Installer.exe`.
+3. Запустите установщик от имени администратора.
+4. Следуйте инструкциям мастера установки.
+5. После установки перезагрузите компьютер.
+6. Установите виртуализацию в BIOS.
+
+### 2. Проверка установки
+После установки откройте терминал (командную строку) и выполните:
+
+wsl --install
+
+### 3. В командную строку введите следующие команды в соответствии с номером задания:
+
+1.docker run -it corrmak/image222222:dev
+
+2.docker run -it corrmak/zadachan2:dev
+
+3.docker run -it corrmak/zadachan3:dev
+
+4.docker run -it corrmak/zadachan4:dev
+
+5.docker run -p "8080:8080" corrmak/matveyweb:latest
